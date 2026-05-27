@@ -26,7 +26,7 @@
 //=================================================
 
 
-module and_gate_tb;
+module and_gate_tb_manual;
 
 reg A;
 reg B;
@@ -63,3 +63,24 @@ initial begin
 end
 
 endmodule
+
+
+moduleAnd_gate_tb_loop;
+reg a;
+reg b;
+wire y;
+integer i;
+
+
+And_Gate_dataflow dut(a,b,y);
+initial
+    begin
+        for(i=0;i<4;i=i+1)
+            begin
+                {a,b}=i;
+                #10;
+                $display(%b %b | %b",a,b,y);
+                         end
+                         $finish;
+                         end
+                         endmodule
