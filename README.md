@@ -15,7 +15,8 @@ Otherwise → Output Y = 0
 
 Truth Table
 
-<img width="574" height="336" alt="Screenshot 2026-05-27 192631" src="https://github.com/user-attachments/assets/b9ecb3d0-8362-4a7f-ba11-48dd22a0b323" />
+<img width="652" height="299" alt="image" src="https://github.com/user-attachments/assets/e5cb5865-2eaa-46fd-bde1-7e6ec135eaeb" />
+
 
 
 Simulation
