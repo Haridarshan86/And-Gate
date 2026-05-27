@@ -20,6 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module And_Gate(input a,b,output y);
-assign y=a&b;
+module And_Gate_dataflow(input a,b,output y);
+ assign y=a&b;
 endmodule
+
+module And_Gate_gatelevel(input a,b,output y);
+ and a1(y,a,b);
+endmodule
+
+module And_Gate_behavioral(input a,b,output reg y);
+  always @ (*) begin
+  y=a&b;
+  end
+endmodule
+
+
