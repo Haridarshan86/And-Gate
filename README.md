@@ -23,4 +23,7 @@ Simulation
 
 <img width="1549" height="872" alt="Screenshot 2026-05-27 192103" src="https://github.com/user-attachments/assets/aef19193-46bd-401a-8c22-b21e84556f73" />
 
+TCL Console
+
+<img width="1359" height="291" alt="image" src="https://github.com/user-attachments/assets/64cf9ee9-d654-4dd4-8d28-aa68f552ad78" />
 
